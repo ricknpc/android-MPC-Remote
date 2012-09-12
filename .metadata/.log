@@ -1,0 +1,15 @@
+!SESSION 2012-07-02 23:21:59.045 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_01
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.osgi 2 1 2012-07-02 23:22:32.467
+!MESSAGE NLS unused message: Preference_Empty_SSH_Path_Msg in: net.rim.ajde.internal.messages.messages
+
+!ENTRY com.android.ide.eclipse.ddms 4 0 2012-07-02 23:22:32.684
+!MESSAGE DDMS files not found: X:\eclipse\platform-tools\adb.exe X:\eclipse\tools\hprof-conv.exe X:\eclipse\tools\traceview.bat 
+
+!ENTRY org.eclipse.ui 4 4 2012-07-02 23:22:57.418
+!MESSAGE Invalid preference page path: XML Syntax

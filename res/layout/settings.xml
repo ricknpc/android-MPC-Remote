@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/settings"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/darkdenim3" >
+
+    <LinearLayout
+        android:id="@+id/areaServer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/labelServer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.5"
+            android:text="@string/settings_server"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/textFieldServer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:singleLine="true" >
+
+            <requestFocus />
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/areaPort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/labelPort"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.5"
+            android:text="@string/settings_port"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/textFieldPort"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:inputType="number" >
+
+        </EditText>
+
+    </LinearLayout>
+
+	<RelativeLayout
+	    android:id="@+id/relativeLayout1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+
+		<TextView
+		    android:id="@+id/labelKeepScreenOn"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_centerVertical="true"
+		    android:layout_marginLeft="20dp"
+		    android:text="@string/settings_keepScreenOn"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		<CheckBox
+		    android:id="@+id/checkBoxKeepScreenOn"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_centerVertical="true"
+		    android:layout_marginRight="20dp" />
+
+	</RelativeLayout>
+	
+	
+	<RelativeLayout
+	    android:id="@+id/relativeLayout2"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+
+
+
+		<TextView
+		    android:id="@+id/labelLockPortrait"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_centerVertical="true"
+		    android:layout_marginLeft="20dp"
+		    android:text="@string/settings_lockPortrait"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+		<CheckBox
+		    android:id="@+id/checkBoxLockPortrait"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_centerVertical="true"
+		    android:layout_marginRight="20dp" />
+
+	</RelativeLayout>
+
+	<LinearLayout
+	    android:id="@+id/areaKeepScreenOn"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:gravity="center" >
+
+	    <Button
+	        android:id="@+id/buttonContinue"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/hint_continue"
+	        android:visibility="invisible" />
+
+	</LinearLayout>
+
+</LinearLayout>

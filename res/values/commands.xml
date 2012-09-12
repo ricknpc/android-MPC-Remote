@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="play">887</string>
+	<string name="pause">888</string>
+	<string name="playpause">889</string>
+	<string name="stop">890</string>
+	
+	<string name="stepforward">891</string>
+	<string name="stepback">892</string>
+	
+	<string name="sjumpforward">900</string>
+	<string name="sjumpback">899</string>
+	<string name="mjumpforward">902</string>
+	<string name="mjumpback">901</string>
+	<string name="ljumpforward">904</string>
+	<string name="ljumpback">903</string>
+	
+	<string name="next">922</string>
+	<string name="prev">921</string>
+	
+	<string name="subtitles">956</string>
+	<string name="fullscreen">830</string>
+	<string name="screenshot">807</string>
+    
+
+</resources>

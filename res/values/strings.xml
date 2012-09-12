@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Remote</string>
+    
+    <string name="app_settings_name">Settings - MPC Remote</string>
+    
+    <string name="app_settings_file">MPC_Remote_Prefs_Default</string>
+
+    <string name="controls_header">Main Controls</string>
+
+    <string name="hint_sjump">"M. Jump"</string>
+
+    <string name="hint_stop">Stop</string>
+
+    <string name="hint_play">Play</string>
+
+    <string name="hint_pause">Pause</string>
+
+    <string name="settings_server">Server</string>
+
+    <string name="settings_port">Port</string>
+    
+    <string name="settings_keepScreenOn">Keep Screen On</string>
+    
+    <string name="settings_lockPortrait">Stay in Portrait</string>
+    
+    <string name="default_server">192.168.0.100</string>
+    
+    <string name="default_port">13579</string>
+    
+    <string name="status_label_status">"Status: "</string>
+
+    <string name="status_label_file">"File: "</string>
+    
+    <string name="status_value_status">"Attempting Connection"</string>
+
+    <string name="status_value_file">"N/A"</string>
+
+    <string name="status_value_time">"00:00:00 / 00:00:00"</string>
+
+    <string name="retry">"No Connection - Retry"</string>
+
+    <string name="extra_header">Extra Controls</string>
+
+    <string name="hint_ljump">"L. Jump"</string>
+
+    <string name="hint_prev">Prev</string>
+
+    <string name="hint_next">Next</string>
+
+    <string name="hint_fullscreen">Fullscreen</string>
+
+    <string name="hint_screenshot">Screenshot</string>
+
+    <string name="hint_subtitles">Subtitles</string>
+
+    <string name="hint_framestep">Framestep</string>
+
+    <string name="jump_note">Note: Medium and Large jumps are subject to MPC\'s settings, but by default are 5 and 20 seconds</string>
+
+    <string name="screenshot_note">Note: Screenshots will save to the computer, not this device</string>
+
+    <string name="hint_continue">Continue</string>
+
+</resources>
