@@ -1,1 +1,7 @@
 notes.txt
+.metadata
+.settings
+.classpath
+.project
+proguard.cfg
+project.properties
